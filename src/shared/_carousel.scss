@@ -1,0 +1,11 @@
+.slide > div {
+    display: flex;
+    
+    flex-shrink: 0;
+    width: 100%;
+    
+}
+
+.carousel-inner .item img {
+    margin:0 auto;
+}
