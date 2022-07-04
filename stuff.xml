@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+    <card>
+        <header>A Card</header>
+        <title>What is this site?</title>
+        <text>This is our doodle page! It's here for you to doodle on, to your heart's content. Save yours by hitting the PrtScr key on your keyboard!</text>
+    </card>
+
+    <card>
+        <header>Another Card</header>
+        <title>How did we get here?</title>
+        <text>Look, man, I get it. It's past midnight, you're writing this, you want a guiding light. Unfortunately, you're not getting it here. Keep typing.</text>
+    </card>
+    
+    <card>
+        <header>And another Card</header>
+        <title>Can I add more colors?</title>
+        <text>Of course! Just hit the Add Color button, and choose your RGB values!</text>
+    </card>
+    
+    <card>
+        <header>A Final Card</header>
+        <title>Why did you do this?</title>
+        <text>We're looping back to that second question, now. Just don't ask, alright? It's fine.</text>
+    </card>
+
+</project>

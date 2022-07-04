@@ -22,13 +22,22 @@
 
       <body>
 
-        <nav class="navbar navbar-dark bg-secondary">
-          <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">Welcome to the doodle page!</span>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">  Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#cards">Some Info</a>
+              <a class="nav-item nav-link" href="#carousel">Our Gallery</a>
+            </div>
           </div>
         </nav>
 
-        <canvas width="600" height="400" id="myCanvas"></canvas>
+<section>
+        <canvas id="myCanvas"></canvas>
+        
         <div class="controls">
           <ul>
             <li class="red selected"></li>
@@ -57,9 +66,45 @@
             </div>
           </div>
         </div>
+</section>
+<br><br>
+
+<div class="card-group">
+<div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
+  <div class="card-header jshead">A Card</div>
+  <div class="card-body text-secondary">
+    <h5 class="card-title">What is this site?</h5>
+    <p class="card-text">This is our doodle page! It's here for you to doodle on, to your heart's content. Save yours by hitting the PrtScr key on your keyboard!</p>
+  </div>
+</div>
+
+<div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
+  <div class="card-header jshead">Another Card</div>
+  <div class="card-body text-secondary">
+    <h5 class="card-title">How did we get here?</h5>
+    <p class="card-text">Look, man, I get it. It's past midnight, you're writing this, you want a guiding light. Unfortunately, you're not getting it here. Keep typing.</p>
+  </div>
+</div>
+
+<div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
+  <div class="card-header jshead">Yet Another Card</div>
+  <div class="card-body text-secondary">
+    <h5 class="card-title">Can I add more colors?</h5>
+    <p class="card-text">Of course! Just hit the Add Color button, and choose your RGB values!</p>
+  </div>
+</div>
+
+<div class="card border-secondary mb-3 mx-auto" style="max-width: 18rem;">
+  <div class="card-header jshead">A Final Card</div>
+  <div class="card-body text-secondary">
+    <h5 class="card-title">Why did you do this?</h5>
+    <p class="card-text">We're looping back to that second question, now. Just don't ask, alright? It's fine.</p>
+  </div>
+</div>
+</div>
 
 <br><br>
-        <div class="card text-center">
+        <div class="card text-center" id="cards">
           <div class="card-body bg-info">
            <h1 class="card-title">Take a look at some of our featured artwork!</h1>
           </div>
@@ -92,6 +137,7 @@
 
 
 <br><br>        
-        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/getMenu.js"></script>
       </body>
     </html>

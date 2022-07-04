@@ -4,6 +4,10 @@ var context = $canvas.getContext("2d");
 var lastEvent;
 var mouseDown = false;
 
+$canvas.setAttribute('width','600');
+$canvas.setAttribute('height','400');
+
+
 //when clicking on control list items
 $(".controls").on("click", "li", function() {
   //deselect sibling elements
@@ -66,3 +70,17 @@ $canvas.onmouseup=function() {
 $canvas.onmouseleave=function() {
   $canvas.onmouseup();
 }
+
+
+window.onresize=function() {
+  var windth = window.innerWidth 
+  if(
+  windth < '700'
+  )
+  {
+    console.log($canvas);
+    $canvas.setAttribute('width',windth*0.80);
+    $canvas.setAttribute('height',windth*0.60);
+  }
+}
+
